@@ -53,4 +53,10 @@ See Ansible-K8S directory here
 #17 Run
 ansible-playbook -i hosts join-workers.yml
 
+#18. Using SSH, check the master Node
+Recall that kube user was added, so switch
+sudo su - kube
+kubectl get nodes
+This should confirm that the Master node and Worker nodes are fully configured and ready.
+
 
