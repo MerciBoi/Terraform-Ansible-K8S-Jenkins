@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: springappcontainer
-        image: chydinma/spring-boot-mongo:2
+        image: chydinma/spring-boot-mongo:3
         ports:
         - containerPort: 8080
         env:
